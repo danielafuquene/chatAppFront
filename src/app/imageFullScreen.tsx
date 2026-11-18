@@ -1,0 +1,12 @@
+import { View, Text } from "react-native";
+
+export default function iamgeFullScreen() {
+  return (
+    <View className="flex-1 justify-center items-center bg-slate-50 px-4">
+      <Text className="text-3xl font-black text-blue-600 mb-2">
+        Soy la pantalla cuando el usuario da click en una imagen y esta se
+        expande
+      </Text>
+    </View>
+  );
+}
